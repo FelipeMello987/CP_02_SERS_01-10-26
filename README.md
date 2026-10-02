@@ -5,7 +5,7 @@ Aplicar classificação e regressão a dados de energia renovável: classificar 
 
 ## Fontes e período dos dados
 - Classificação: cadastro de empreendimentos de geração da ANEEL (https://dadosabertos.aneel.gov.br/api/3/action/datastore_search), 3876 registros, com potência (kW), latitude e longitude. Arquivo: aneel_classificacao_orange.csv
-- Regressão: API Open-Meteo, Petrolina (PE), de 01/04/2025 a 30/06/2025, das 7h às 17h, 1001 registros horários com temperatura, umidade, nuvens, vento, hora e radiação (W/m²). Arquivo: meteo_regressao_orange.csv
+- Regressão: API Open-Meteo (https://open-meteo.com/en/docs/historical-weather-api), Petrolina (PE), de 01/04/2025 a 30/06/2025, das 7h às 17h, 1001 registros horários com temperatura, umidade, nuvens, vento, hora e radiação (W/m²). Arquivo: meteo_regressao_orange.csv
 
 ## Como executar o notebook
 1. Abra Aula_APIs_Energia_Renovavel_ML.ipynb no Google Colab (ou Jupyter).
